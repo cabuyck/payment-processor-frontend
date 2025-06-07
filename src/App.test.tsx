@@ -3,9 +3,9 @@ import { describe, it, expect } from 'vitest';
 import App from './App';
 
 describe('App', () => {
-  it('renders app title', () => {
+  it('renders navigation links', () => {
     render(<App />);
-    const element = screen.getByText(/payment-processor-frontend/i);
-    expect(element).toBeInTheDocument();
+    expect(screen.getByText(/Pay/i)).toBeInTheDocument();
+    expect(screen.getByText(/Admin/i)).toBeInTheDocument();
   });
 });
