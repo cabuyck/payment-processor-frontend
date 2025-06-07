@@ -1,8 +1,18 @@
 # payment-processor-frontend
 
-This project was bootstrapped manually with a React and TypeScript setup. To get started, install dependencies and run the development server:
+This project uses [Vite](https://vitejs.dev/) with React and TypeScript.
+
+## Getting Started
+
+Install dependencies and start the development server:
 
 ```bash
 npm install
-npm start
+npm run dev
+```
+
+Run tests with:
+
+```bash
+npm test
 ```
