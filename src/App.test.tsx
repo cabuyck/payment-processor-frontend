@@ -1,8 +1,11 @@
 import { render, screen } from '@testing-library/react';
+import { describe, it, expect } from 'vitest';
 import App from './App';
 
-test('renders app title', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/payment-processor-frontend/i);
-  expect(linkElement).toBeInTheDocument();
+describe('App', () => {
+  it('renders app title', () => {
+    render(<App />);
+    const element = screen.getByText(/payment-processor-frontend/i);
+    expect(element).toBeInTheDocument();
+  });
 });
