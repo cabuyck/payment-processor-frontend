@@ -16,3 +16,7 @@ Run tests with:
 ```bash
 npm test
 ```
+
+## Configuration
+
+Set `VITE_API_BASE_URL` in a `.env` file to point to the backend API.
