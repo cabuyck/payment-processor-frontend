@@ -1,6 +1,6 @@
 # payment-processor-frontend
 
-This project uses [Vite](https://vitejs.dev/) with React and TypeScript.
+This project uses [Vite](https://vitejs.dev/) with React and TypeScript. Styling is provided by [Tailwind CSS](https://tailwindcss.com/) v4.
 
 ## Getting Started
 
